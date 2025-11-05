@@ -8,7 +8,7 @@ body {
   text-overflow: ellipsis;
 }
 
-article {
+article { fun (v, begin (),v.end()); // operate on the whole array 
   position: fixed;
   top: 33vh;
   left: 28.5vw;
@@ -16,7 +16,32 @@ article {
   margin-right: 29.5vw;
 }
 
-.text {
+.text { import gradio as gr
+       import requests
+       from smolagents import cool
+       from smolagents import CodeAgent, InfwerenceClientModel, tool 
+
+       @tool
+
+       def getHelloName ( input:str)-> str:
+       """
+  This tool returns the hello name
+  Args:
+  input: A search term
+"""
+
+url = f"http:??localhost:9100/v3/rest/helloWorld/{input}"
+
+# case when there is a response from the API
+try:
+
+response = requests.get(url)
+if response.status_code == 200: # expected, okay status
+# parsing status code
+helloNAme = response.json() {'message'}
+requests.exceptions.RequestException as e:
+
   margin: 0;
   height: 63.5vh;
 }
+
