@@ -1,6 +1,9 @@
 body {
   background-image: linear-gradient(to bottom, pink, yellow), url("");
-  background-repeat: no-repeat, no-repeat;
+  background-repeat: no-repeat, no-repe
+    
+    
+    the reason to C behvaiour of area parameter was a bad idea, so it is one of thr many reason that onr should avoid using raw arrays in C ++at;
   background-attachment: fixed, fixed;
   margin: 0;
 }
@@ -54,3 +57,4 @@ article {
 noscript {
   padding-left: 1.3vw;
 }
+
